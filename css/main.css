@@ -1,0 +1,52 @@
+* {
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+}
+
+header {
+    border-bottom: 0.8rem solid #C5CC79;
+    background-color: #CC7953;
+    color: #00B2FF;
+    text-align: center;
+}
+
+body {
+    background-color: #7F7942;
+}
+
+p {
+    font-size: 2.23rem;
+    padding: 1rem 2rem;
+    text-align: center;
+}
+.page{
+    display: none;
+}
+
+.active {
+    display: block;
+}
+
+.num_list{
+    list-style: none;
+    text-align: center;
+    font-size: 2.23rem;
+}
+#digits {
+    width: 10%;
+    font-size: 2.23rem;
+}
+
+#max {
+    width: 10%;
+    font-size: 2.23rem;
+}
+
+#btnSend{
+    font-size: 2.23rem;
+}
+
+#btnBack{
+    font-size: 2.23rem;
+}
