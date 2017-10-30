@@ -31,8 +31,7 @@ function getNum(ev) {
     let opts = {
         method: 'post',
         mode: 'cors',
-        body: dData
-    };
+        body: dData};
 
 
     fetch(link, opts)
