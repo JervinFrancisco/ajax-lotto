@@ -18,6 +18,7 @@ document.addEventListener('DOMContentLoaded', init);
 
 function getNum(ev) {
     ev.preventDefault();
+    console.log("button clicked");
 
     let digit = document.getElementById("digits").value;
     let maxx = document.getElementById("max").value;
