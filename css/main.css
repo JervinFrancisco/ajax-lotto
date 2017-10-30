@@ -1,14 +1,28 @@
+@import url("https://fonts.googleapis.com/css?family=ABeeZee|Crete+Round");
+
 * {
     padding: 0;
     margin: 0;
     box-sizing: border-box;
 }
 
+h1 {
+   
+    font-family: 'Crete Round', 'Times New Roman', Times, serif;
+}
+
+h3{
+
+    font-family: 'Crete Round', 'Times New Roman', Times, serif;
+}
+
+
 header {
     border-bottom: 2.8rem solid #ED2939;
     background-color: #CC7953;
     color: azure;
     text-align: center;
+    font-family: 'Crete Round', 'Times New Roman', Times, serif;
 }
 
 body {
@@ -19,6 +33,7 @@ body {
 p {
     font-size: 2.23rem;
     padding: 1rem 2rem;
+    font-family: ABeeZee, Verdana, Geneva, sans-serif;
 }
 
 
@@ -45,6 +60,7 @@ p {
     text-align: center;
     font-size: 1.4em;
     align-content: center;
+    font-family: ABeeZee, Verdana, Geneva, sans-serif;
 }
 #digits {
     width: 10%;
