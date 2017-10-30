@@ -5,23 +5,26 @@
 }
 
 header {
-    border-bottom: 0.8rem solid #C5CC79;
+    border-bottom: 2.8rem solid #ED2939;
     background-color: #CC7953;
-    color: #00B2FF;
+    color: azure;
     text-align: center;
 }
 
 body {
-    background-color: #7F7942;
+    background-color: #5F7742;
 }
+
 
 p {
     font-size: 2.23rem;
     padding: 1rem 2rem;
-    text-align: center;
 }
+
+
 .page{
     display: none;
+    text-align: center;
 }
 
 .active {
@@ -29,18 +32,28 @@ p {
 }
 
 .num_list{
-    list-style: none;
+    display:inline-block;
+    height: 50px;
+    width: 50px;
+    line-height: 50px;
+
+    border-radius: 30px; 
+    border-radius: 30px;
+
+    background-color: black;
+    color: white;
     text-align: center;
-    font-size: 2.23rem;
+    font-size: 1.4em;
+    align-content: center;
 }
 #digits {
     width: 10%;
-    font-size: 2.23rem;
+    font-size: 1.20rem;
 }
 
 #max {
     width: 10%;
-    font-size: 2.23rem;
+    font-size: 1.20rem;
 }
 
 #btnSend{
