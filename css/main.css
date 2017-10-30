@@ -65,6 +65,7 @@ p {
 #digits {
     width: 10%;
     font-size: 1.20rem;
+    
 }
 
 #max {
@@ -74,8 +75,10 @@ p {
 
 #btnSend{
     font-size: 2.23rem;
+    font-family: ABeeZee, Verdana, Geneva, sans-serif;
 }
 
 #btnBack{
     font-size: 2.23rem;
+    font-family: ABeeZee, Verdana, Geneva, sans-serif;
 }
