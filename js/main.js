@@ -14,7 +14,7 @@ function init() {
 
 }
 
-document.addEventListener('DOMContentLoaded', init);
+
 
 function getNum(ev) {
     ev.preventDefault();
@@ -68,3 +68,5 @@ function getNum2(ev) {
 
 
 }
+
+document.addEventListener('DOMContentLoaded', init);
