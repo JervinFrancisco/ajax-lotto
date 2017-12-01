@@ -6,6 +6,9 @@ add listeners for click
 
 
 function init() {
+    //this function will run after the html has loaded
+    //when the DOMContentLoaded event happens to the webpage
+    //run this function
 
     let btn = document.querySelector("#btnSend");
     btn.addEventListener('click', getNum);
@@ -14,15 +17,14 @@ function init() {
 
 }
 
-
+document.addEventListener('DOMContentLoaded', init);
 
 function getNum(ev) {
     ev.preventDefault();
-    console.log("button clicked");
 
     let digit = document.getElementById("digits").value;
     let maxx = document.getElementById("max").value;
-    let link = ("https://griffis.edumedia.ca/mad9014/lotto/nums.php");
+    let link = ("http://localhost/mad9014-lotto/nums.php");
 
     let dData = new FormData();
     dData.append("digits", digit);
@@ -31,7 +33,8 @@ function getNum(ev) {
     let opts = {
         method: 'post',
         mode: 'cors',
-        body: dData};
+        body: dData
+    };
 
 
     fetch(link, opts)
@@ -68,5 +71,3 @@ function getNum2(ev) {
 
 
 }
-
-document.addEventListener('DOMContentLoaded', init);
